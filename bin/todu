@@ -2,7 +2,7 @@
 
 # This currently adds a file from whatever directory the exe is called from
 # Need to change this to always target the same file in the tudo directory
-TODO_FILE = 'todo.txt'
+TODO_FILE = '/Users/Tuds/apps/todu/todo.txt'
 
 def read_todo(line)
   line.chomp.split(/,/)
